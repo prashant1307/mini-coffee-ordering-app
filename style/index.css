@@ -1,0 +1,22 @@
+#navbar{
+    display: flex;
+    font-size: xx-large;
+    background-color: teal;
+    justify-content: space-between;
+    padding-left: 700px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+  }
+  #menu{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  #menu div{
+    border: 1px solid;
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  #menu img{
+    width: 100%;
+    height: 200px;
+  }

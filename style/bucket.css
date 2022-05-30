@@ -1,0 +1,13 @@
+#bucket{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  #bucket div{
+    border: 1px solid;
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  #bucket img{
+    width: 100%;
+    height: 200px;
+  }
